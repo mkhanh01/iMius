@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">iMius</string>
+
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="confirm_code">Confirm code</string>
+    <string name="username">Username</string>
+
+    <string name="get_code">Get Code</string>
+
+    <string name="forget_password">Forget password?</string>
+    <string name="login_account">Do you already have an account? Login</string>
+
+    <string name="signup_with_email">Sign up with Email</string>
+    <string name="skip">SKIP</string>
+    <string name="create_an_account">Create an account? Sign up</string>
+
+    <string name="play_list">Playlist</string>
+    <string name="singer">Singer</string>
+    <string name="trending">Trending</string>
+    <string name="new_release">New release</string>
+    <string name="theme">Topic</string>
+    <string name="charts">Charts</string>
+    <string name="song_name" translatable="false">------</string>
+    <string name="singer_name" translatable="false">----</string>
+    <string name="runtime" translatable="false">--:--</string>
+    <string name="total_time" translatable="false">--:--</string>
+    <string name="enter_name_for_your_playlist">The name for your playlist</string>
+    <string name="enter_name_of_playlist">Enter a name of playlist</string>
+    <string name="enter">Enter</string>
+    <string name="library">Library</string>
+    <string name="search_in_library">Enter a song....</string>
+    <string name="cant_find">I can not find this song :(</string>
+    <string name="change_password">Change password</string>
+    <string name="new_password">Enter a new password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="update_btn">Update</string>
+    <string name="logout">Logout</string>
+    <string name="text_view" translatable="false">textview</string>
+    <string name="profile" translatable="false">P R O F I L E</string>
+    <string name="name_of_song">Name of song</string>
+
+    <string name="login_successfully">Login successfully</string>
+    <string name="login_failed">Login failed</string>
+    <string name="require">REQUIRE</string>
+    <string name="progressbar_tittle">"Please wait</string>
+    <string name="progressbar_login">"Logging in...</string>
+    <string name="progressbar_signup">"Signing up...</string>
+    <string name="compare_password_require">Passwords are not match</string>
+    <string name="password_error">The password is invalidate</string>
+    <string name="email_invalidate">Email is invalidate</string>
+    <string name="email_exist">This email is already exists</string>
+    <string name="username_exist">The username is already exists</string>
+    <string name="song_exist">This song is already in the playlist!</string>
+    <string name="signup_successfully">Signup Successfully</string>
+    <string name="check_code">Please check the Code in your Email</string>
+    <string name="subject_email">Confirmation code from IMIUS</string>
+    <string name="content_email">"iMius sent you an OTP for email verification: "</string>
+    <string name="hello_email">Hello you,</string>
+    <string name="end_email">Thank you!</string>
+    <string name="code_error">Code error</string>
+    <string name="email_format_error">Email invalidate</string>
+    <string name="format_error">Format Error</string>
+    <string name="update_name_playlist">Update</string>
+    <string name="email_pattern" translatable="false">[a-zA-Z][\\w-]+@([\\w]+\\.[\\w]+|[\\w]+\\.[\\w]{2,}\\.[\\w]{2,})
+    </string>
+    <string name="special_character" translatable="false">[a-zA-Z]+</string>
+    <string name="is_number" translatable="false">[\\d+]</string>
+    <string name="number_error">The code is the number</string>
+    <string name="username_special_character">The username cannot contain special characters</string>
+    <string name="email_server" translatable="false">imiusg@gmail.com</string>
+    <string name="password_email_server" translatable="false">cwoaqfrumgvhqnsz</string>
+
+    <string name="library_playlist_name_exits">The playlist name has been exists!</string>
+    <string name="library_playlist_insert_success">Insert the playlist successfully!</string>
+    <string name="library_playlist_delete_success">Delete the playlist successfully!</string>
+    <string name="song_library_playlist_delete_success">Delete the song successfully!</string>
+    <string name="delete_success">Deleted</string>
+    <string name="library_playlist_update_success">Update the playlist successfully!</string>
+    <string name="song_insert_success">Insert the song successfully!</string>
+    <string name="library_playlist_insert_failed">Insert the playlist failed!</string>
+    <string name="library_playlist_delete_failed">Delete the playlist failed!</string>
+    <string name="song_library_playlist_delete_failed">Delete the song failed!</string>
+    <string name="delete_failed">Can not delete</string>
+    <string name="library_playlist_update_failed">Update the playlist failed!</string>
+    <string name="song_insert_failed">Insert the song failed!</string>
+
+    <string name="title_dialog">Confirm</string>
+    <string name="dialog_delete_message">Are you sure you want to delete?</string>
+    <string name="dialog_logout">Are you sure you want to logout?</string>
+    <string name="yes_dialog">Yes</string>
+    <string name="no_dialog">No</string>
+
+    <string name="check_update" translatable="false">checkUpdate</string>
+    <string name="nameLibraryPlaylist" translatable="false">nameLibraryPlaylist</string>
+    <string name="update" translatable="false">update</string>
+    <string name="insert" translatable="false">insert</string>
+
+    <string name="status_player" translatable="false">status_player</string>
+    <string name="action_music" translatable="false">action_music</string>
+    <string name="duration_music" translatable="false">duration_music</string>
+    <string name="seek_to_music" translatable="false">seek_to_music</string>
+    <string name="position_music" translatable="false">position_music</string>
+    <string name="obj_song" translatable="false">obj_song</string>
+    <string name="obj_song_library" translatable="false">obj_song_library</string>
+    <string name="obj_song_favorite" translatable="false">obj_song_favorite</string>
+    <string name="action_music_service" translatable="false">action_music_service</string>
+    <string name="duration" translatable="false">duration</string>
+    <string name="repeat_music" translatable="false">repeat_music</string>
+    <string name="random_music" translatable="false">random_music</string>
+    <string name="send_data_to_activity" translatable="false">send_data_to_activity</string>
+    <string name="enter_new_name_for_your_playlist">Enter new name for your playlist</string>
+
+    <string name="update_success">Update successfully</string>
+    <string name="update_faild">Update failed</string>
+    <string name="cannot_find">Cannot find</string>
+    <string name="network_disconnected">Network disconnected</string>
+    <string name="continue_continue">CONTINUE</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="account">Account</string>
+    <string name="playlist">Playlist</string>
+    <string name="favorite">Favorite</string>
+    <string name="history">History</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="signup_failed">Signup failed</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_internet_message">Please check your internet connection and than enjoy this app</string>
+    <string name="username_error">Username is invalidate!</string>
+    <string name="email_not_match">Email is not match!!</string>
+</resources>

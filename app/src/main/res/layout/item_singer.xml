@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginRight="12dp"
+    android:layout_marginLeft="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/item_singer_civ_singer_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:civ_border_color="#B55107"
+            app:civ_border_width="2dp"
+            android:src="@drawable/ic_some_item_avt"/>
+
+        <TextView
+            android:id="@+id/item_singer_tv_singer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:ellipsize="end"
+            android:maxWidth="150dp"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/text_view"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+
+</LinearLayout>

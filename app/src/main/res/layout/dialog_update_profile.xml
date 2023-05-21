@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:layout_margin="20dp"
+    android:background="@drawable/custom_fb_button"
+    android:id="@+id/dialog_update_profile_frame_content">
+
+    <TextView
+        android:id="@+id/dialog_update_profile_tv_cancel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/ic_cancel" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/dialog_update_profile_tv_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="@string/profile"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dialog_update_profile_civ_avatar"
+            android:layout_below="@id/dialog_update_profile_tv_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/white_logo"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="2dp"/>
+
+        <ImageView
+            android:id="@+id/dialog_update_profile_iv_choose_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginStart="180dp"
+            android:background="@drawable/bgr_camera"
+            android:padding="7dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_camera" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/dialog_update_profile_til_username"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="40dp"
+            android:hint="@string/enter_your_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textColorHint="@color/colorPrimary"
+            app:boxCornerRadiusBottomEnd="30dp"
+            app:boxCornerRadiusBottomStart="30dp"
+            app:boxCornerRadiusTopEnd="30dp"
+            app:boxCornerRadiusTopStart="30dp"
+            app:boxStrokeWidth="2dp"
+            android:layout_below="@id/dialog_update_profile_civ_avatar"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dialog_update_profile_et_username"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimary"
+                android:paddingLeft="20dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/dialog_update_profile_btn_update"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/update_btn"
+            android:textSize="18dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/custom_button"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/dialog_update_profile_til_username"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
+

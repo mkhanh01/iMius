@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_trending_linear_layout"
+    tools:context=".fragment.TrendingFragment">
+
+    <TextView
+        android:id="@+id/fragment_trending_tv_trending"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trending"
+        android:textSize="30dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="12dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_trending_rv_trending"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"/>
+
+</LinearLayout>
